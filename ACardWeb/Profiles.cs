@@ -6,9 +6,9 @@ namespace ACardWeb
     {
         public static class QA 
         {
-            public static string URL = "https://www.presidente.com.do/";
-            public static string Usuario = "";
-            public static string Clave = "";
+            public static string URL = "https://www.instagram.com/p/C4d97hWp0_b/";
+            public static string Usuario = "8294783100";
+            public static string Clave = "kenia0102";
         }
         public static class PreProduccion
         {

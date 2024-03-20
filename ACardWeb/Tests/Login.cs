@@ -19,7 +19,7 @@ namespace ACardWeb.Tests
         public void IniciarSesion_CredencialesCorrectas()
         {
 
-            Iniciar("CHROME");
+            Iniciar("EDGE");
             driver.Navigate().GoToUrl(Profiles.QA.URL);
             Random ls = new Random();
             List<string> numbers = new List<string>() { "Distrito Nacional", "Santo Domingo", "San Cristóbal", "La Vega", "Santiago" }; //, "Santo Domingo", "San Cristóbal", "La Vega", "Santiago"
