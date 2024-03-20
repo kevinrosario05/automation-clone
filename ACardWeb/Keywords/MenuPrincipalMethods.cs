@@ -27,15 +27,8 @@ namespace ACardWeb.Keywords
             driver.FindElement(MenuPrincipalObjects.buttonEntrar).Click();
             Thread.Sleep(6000);
             driver.FindElement(MenuPrincipalObjects.NotNow).Click();
-            /*  Thread.Sleep(3000);
-              new WebDriverWait(driver, TimeSpan.FromSeconds(5)).Until(d => d.FindElement(MenuPrincipalObjects.buscador).Displayed);
-              driver.FindElement(MenuPrincipalObjects.buscador).Click();
-              Thread.Sleep(3000);
-              driver.FindElement(MenuPrincipalObjects.buscadorImput).SendKeys("nicole08unique");
-              Thread.Sleep(3000);
-              driver.FindElement(MenuPrincipalObjects.perfil).Click();
-              Thread.Sleep(5000);
-              driver.FindElement(MenuPrincipalObjects.post).Click();*/
+            Thread.Sleep(4000);
+            driver.FindElement(MenuPrincipalObjects.MeGusta).Click();
             Thread.Sleep(5000);
             driver.FindElement(MenuPrincipalObjects.comment).Click();
             Thread.Sleep(5000);
