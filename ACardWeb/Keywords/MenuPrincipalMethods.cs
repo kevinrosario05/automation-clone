@@ -36,7 +36,7 @@ namespace ACardWeb.Keywords
               driver.FindElement(MenuPrincipalObjects.perfil).Click();
               Thread.Sleep(5000);
               driver.FindElement(MenuPrincipalObjects.post).Click();*/
-            Thread.Sleep(3000);
+            Thread.Sleep(5000);
             driver.FindElement(MenuPrincipalObjects.comment).Click();
             Thread.Sleep(5000);
             Random rnd = new Random();
@@ -46,7 +46,7 @@ namespace ACardWeb.Keywords
          //   driver.FindElement(LoginObjects.BuscarInput).SendKeys(correosrandom);
             driver.FindElement(MenuPrincipalObjects.comment).SendKeys(correosrandom);
             Thread.Sleep(3000);
-            driver.FindElement(MenuPrincipalObjects.enviarComent).Click();
+            driver.FindElement(MenuPrincipalObjects.post).Click();
 
         }
     }
